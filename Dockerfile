@@ -11,4 +11,4 @@ RUN pip3 install jupyterlab
 
 EXPOSE 8080
 
-CMD ["juypter","lab","--ip=0.0.0.0","--port=8050","--no-browser","--allow-root","--NotebookApp.token=''"]
+CMD ["jupyter" , "lab" , "--ip=0.0.0.0","--port=8080","--no-browser","--allow-root","--NotebookApp.token=' ' "]
